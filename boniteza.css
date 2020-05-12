@@ -1,11 +1,11 @@
 body {
    background-image: url('https://cdn.hipwallpaper.com/i/74/67/WtmBkj.jpg');
    background-size: 100vw 100vh;
-   font-family: Arial;
+   font-family: Helvetica, Arial;
 }
 
 .menu {
-   background-color: white;
+	background-color: #574C4C;
 }
 
 .menu li {
@@ -13,25 +13,40 @@ body {
 }
 
 .menu ul {
-  display: flex;
-  justify-content: space-around;
+	display: flex;
+	justify-content: space-around;
 }
 
 a {
-  color: #115060;
+  color: black;
   text-decoration: none;
 }
 
-a:hover {
-  color: magenta;
-  text-decoration: underline;
-  font-size: 125%;
+a:hover {	
+	color: #FFFFFF;
+	text-decoration: underline;
+	font-size: 120%;
+}
+
+@keyframes teste {
+ 	from {color: whitesmoke;}
+  	to {color: #A63537;}
+}
+
+h1:hover {
+  	animation-name: teste;
+  	animation-duration: 0.35s;
 }
 
 .subtitulo,
 .titulo {
-   color: coral;
+   color: red;
    text-align: center;
 }
 
+.subtitulo2 {
+    text-align: menu;
+    color: black;
+    font-style: Helvetica;
+}
 
