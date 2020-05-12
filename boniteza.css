@@ -23,7 +23,9 @@ a {
 }
 
 a:hover {
+  color: magenta;
   text-decoration: underline;
+  font-size: 125%;
 }
 
 .subtitulo,
