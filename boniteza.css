@@ -9,12 +9,13 @@ body {
 }
 @media (min-width: 300px){
 	body{
-		font-size: 14px;
+		font-size: 10px;
 	}
 }		
 @media (min-width: 600px){
 	body{
-		font-size: 22px;
+		font-size: 18px;
+		 background-image: url('https://portal.crea-sc.org.br/wp-content/uploads/2018/12/fundo-azul-claro.jpg');
 	}
 }
 @media (min-width: 1000px){
@@ -81,6 +82,10 @@ h1:hover {
 .titulo {
    color: red;
    text-align: center;
+}
+
+.titulo{
+	font-size: 3em;
 }
 
 .subtitulo2 {
