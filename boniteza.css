@@ -1,11 +1,24 @@
+* {
+	margin: 0;
+	padding: 0;
+}
 body {
    background-image: url('https://cdn.hipwallpaper.com/i/74/67/WtmBkj.jpg');
    background-size: 100vw 100vh;
    font-family: Helvetica, Arial;
 }
+header{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
 .menu {
-	background-color: #574C4C;
+	background-color: #3D3F38;
+	position: fixed;
+	width: 100vw;
+	top: 0;
 }
 
 .menu li {
@@ -50,13 +63,11 @@ h1:hover {
     font-style: Helvetica;
 }
 
-#box1 .escreva #entrada
-{ 
-	width: 20%;
-	border-radius: 60px;
-	height: 30px;
-	text-align: center;
-	color: rgba(233,15,15,1.00);
-	font-size: 16px;
-	border-color: red;
+.coisa {
+	color: white;
+	font-family: Times New Roman;
+}
+.img-portfolio {
+	height: 180px;
+	width: 180px;
 }
