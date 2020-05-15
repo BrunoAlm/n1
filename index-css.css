@@ -120,21 +120,3 @@ h1:hover {
     color: black;
     font-style: Helvetica;
 }
-
-.portfolio {
-	padding: 4em;
-}
-
-.portfolio h2{
-	color: #0F120F;
-	font-family: Times New Roman;
-	text-align: left;
-	font-size: 3em;
-	margin-top: 12em;
-	margin-bottom: 20px;
-}
-
-.img-portfolio {
-	height: 180px;
-	width: 280px;
-}
