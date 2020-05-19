@@ -75,27 +75,21 @@ a:hover {
 	grid-template-columns: 300px 300px;
 	align-content: flex-start;
 	justify-content: center;
-	height: 2px;
-	}
-}
+	height: 2px;}}
 @media (max-width: 470px){
 	.portfolio .grid {
 	display: grid;
 	grid-template-columns: 300px;
 	align-content:  flex-start;
 	justify-content: center;
-	height: 2px;
-	}
-}
+	height: 2px;}}
 
 .portfolio figure {
 	text-align: center;
-	margin-bottom: 40px;
-}
+	margin-bottom: 40px;}
 
 .img-portfolio {
 	height: 140px;
 	width: 140px;
 	object-fit: cover;
-	border-radius: 50%;
-}
+	border-radius: 50%;}

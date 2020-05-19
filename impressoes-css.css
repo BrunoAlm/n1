@@ -60,22 +60,39 @@ h1:hover {
   	animation-duration: 0.35s;
 }
 
-.titulo h1 {
+h1 {
 	color: #5d4c39;
 	text-align: center;
 	margin: 50px;
 	display: grid;
 }	
 
-.meses-grid h2{
+.grid {
 	display: grid;
-	grid-template-columns: 100px 100px 100px;
-	margin-bottom: 52px;
+	grid-template-columns: 140px 140px;
 	justify-content: center;
 	color: #5e4cafd3;
-	text-decoration: wavy;
+	
 }
-.meses-grid h2:hover {
+.grid h4:hover {
 	text-transform: lowercase;
 	
   }
+
+  .listas figure {
+	text-align: center;
+	margin-bottom: 40px;}
+
+  .img-modelosA3{
+	margin: 50px;
+	height: 200px;
+	width: 140px;
+	object-fit: cover;
+	border-radius: 0%;}
+
+	.img-modelosA5{
+		margin: 50px;
+		height: 200px;
+		width: 350px;
+		object-fit: cover;
+		border-radius: 0%;}
