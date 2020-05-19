@@ -7,7 +7,7 @@ body {
    background-image: url("./background/main-background.jpg");
    background-size: 100vw 1000vh;
    font-family: Helvetica, Arial;
-
+   font-size: 1.3vw;
 }
 
 header 
@@ -60,19 +60,22 @@ h1:hover {
   	animation-duration: 0.35s;
 }
 
-.titulo {
+.titulo h1 {
 	color: #5d4c39;
-	grid-template-columns: 1000px;
 	text-align: center;
 	margin: 50px;
 	display: grid;
 }	
 
-.meses-grid  h2 {
+.meses-grid h2{
 	display: grid;
-	grid-template-columns: 300px 400px;
-	align-content:  2px;
+	grid-template-columns: 100px 100px 100px;
+	margin-bottom: 52px;
 	justify-content: center;
-	height: 2px;
+	color: #5e4cafd3;
+	text-decoration: wavy;
 }
-
+.meses-grid h2:hover {
+	text-transform: lowercase;
+	
+  }
