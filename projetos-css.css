@@ -82,7 +82,7 @@ a:hover {
 	.portfolio .grid {
 	display: grid;
 	grid-template-columns: 300px;
-	align-content: flex-start;
+	align-content:  flex-start;
 	justify-content: center;
 	height: 2px;
 	}
